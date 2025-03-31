@@ -28,26 +28,19 @@ var animation_cloudy = lottie.loadAnimation({
 
 //thunder
 
-// var animation_thunder = lottie.loadAnimation({
-//     container: document.getElementById('thunder'), 
-//     renderer: 'svg',
-//     loop: true,
-//     autoplay: true,
-//     path: 'animation/thunder.json' // Replace with your JSON file path or URL
-// });
-
 var animation_thunder = lottie.loadAnimation({
-    container: document.getElementById('thunder'),
+    container: document.getElementById('thunder'), 
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'animation/thunder.json'
+    path: 'animation/thunder.json' // Replace with your JSON file path or URL
 });
 
-animation_thunder.addEventListener('DOMLoaded', function() {
-    console.log('Lottie animation loaded successfully!');
+var animation_rain = lottie.loadAnimation({
+    container: document.getElementById('rain'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'animation/rain.json'
 });
 
-animation_thunder.addEventListener('error', function(event) {
-    console.error('Lottie error:', event);
-});
