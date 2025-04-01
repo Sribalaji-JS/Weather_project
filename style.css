@@ -9,5 +9,10 @@
 .adjust_thunder{
     width: 70px;
     height: 40px;
-    font-weight: 10px;
+    transform: scale(0.8);
+}
+
+.adjust_rain{
+    width: 70px;
+    height: 90px;
 }
