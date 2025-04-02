@@ -1,10 +1,36 @@
-.adjust{
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+/* body{
+    position: relative;
+    background-image: url(images/Img/sky-6762844.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.weather_condition{
+    position: absolute;
+    top: 50%;
+}
+
+
+
+
+
+.adjust_sunny{
     width: 70px;
     height: 55px;
+    border-width: 50px;
 }
+
 .adjust_cloud{
     width: 70px;
-    height: 50px;
+    height: 70px;
 }
 .adjust_thunder{
     width: 70px;
@@ -16,3 +42,15 @@
     width: 70px;
     height: 90px;
 }
+.weather_icon_conatiner1{
+    display: grid;
+    justify-content: end;
+    height: 80%;
+    width: 85%;
+}
+
+/* .weather_icon_conatiner{
+    display:block;
+    width:55%;
+    height: 50%;
+} */
