@@ -8,55 +8,54 @@
     <title>Weather</title>
 </head>
 <body>
-    <!-- <div class="container"> -->
-        <p class="weather_condition">
-            <h1>
-                <span>
-                    Thunder ⚡
-                </span>
-            </h1>
-        </p>
-        <p class="weather_degree">
-            <h2>
-                <span>
-                    16 <sup>o</sup>
-                </span>
-            </h2>
-        </p>
+        
+    <h1>
+        <span class="weather_text">
+            <div class="loader1"></div> 
+        </span>
+    </h1>
 
-        <p class="weather_year">
-            <h3>
-                <span>Sunday</span> <span>|</span> <span>Sep 26, 2025</span>
-            </h3>
-        </p>
-
-        <div class="weather_icon_conatiner">
-            <div class="weather_icon_conatiner_sunny">
-                <div id="sunny" class="adjust_sunny" ></div>
-            </div>
-            <div class="weather_icon_conatiner_cloudy">
-                <div id="cloudy" class="adjust_cloud" ></div>
-            </div>
-            <div class="weather_icon_conatiner_thunder">
-                <div id="thunder" class="adjust_thunder" ></div>
-            </div>
-            <div class="weather_icon_conatiner_rainy">
-                <div id="rain" class="adjust_rain" ></div>
-            </div>
-
+    <h2>
+        <span class="weather_degree">
+            <div class="loader2"></div>
+        </span>
+    </h2>
+    <h3>
+         <!-- <span id="weather_day">Sunday</span> <span id="weather_slash">|</span> <span id="weather_date">Sep 26, 2025</span> -->
+         <span class="weather_condition">
+            <div class="loader3"></div>
+         </span>
+    </h3>
+    
+    <div class="weather_icon_conatiner"> 
+        <div class="weather_icon_conatiner_sunny effect">
+            <div id="sunny" class="adjust" ></div>
         </div>
-
+        <div class="weather_icon_conatiner_cloudy">
+            <div id="cloudy" class="adjust_cloud" ></div>
+        </div>
+        <div class="weather_icon_conatiner_thunder  ">
+            <div id="thunder" class="adjust_thunder" ></div>
+        </div>
+        <div class="weather_icon_conatiner_rainy">
+            <div id="rain" class="adjust_rain" ></div>
+        </div>
+    </div>
+    <div class="time_weather_container">
         <div class="weather_icon_conatiner1">
-            <P>05 AM<span class="weather_icon_suffle"></span></P>
-            <p>05 AM<span class="weather_icon_suffle"></span></p>
-            <p>05 AM<span class="weather_icon_suffle"></span></p>
-            <p>05 AM<span class="weather_icon_suffle"></span></p>
-            <p>05 AM<span class="weather_icon_suffle"></span></p>
-            <p>05 AM<span class="weather_icon_suffle"></span></p>
+            <h4 class="day">Sunday</h4>
+            <P class="six">06 AM<span id="weather_icon_six"></span></P>
+            <p class="ten">10 AM<span id="weather_icon_ten"></span></p>
+            <p class="twelve">12 PM<span id="weather_icon_twelve"></span></p>
+            <p class="sixeve">06 PM<span id="weather_icon_sixeve"></span></p>
+            <p class="teneve">10 PM<span id="weather_icon_teneve"></span></p>
+    
         </div>
-    <!-- </div> -->
+    </div>
+        
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
     <script src="bodymovin.js"></script>
+    <script src="weather.js"></script>
 
 </body>
 </html>
